@@ -45,7 +45,7 @@
         <lombok.version>1.18.4</lombok.version>
 
         <!--wagon plugin 配置-->
-        <service-path>/work/renren</service-path>
+        <service-path>/var/lib/docker/volumes/j4/_data</service-path>
         <pack-name>${project.artifactId}-${project.version}.jar</pack-name>
         <remote-addr>192.168.1.20:22</remote-addr>
         <remote-username>root</remote-username>
